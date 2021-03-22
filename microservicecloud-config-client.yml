@@ -4,11 +4,11 @@ spring:
       - dev
 ---
 server:
-  port: 8001
+  port: 8003
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-client
+    name: microservicecloud-config-client1
 eureka:
   client:
     service-url:
